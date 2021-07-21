@@ -32,7 +32,7 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16",
-    "origins": ">=v1.0.3"
+    "origins": ">=1.0.3"
   },
   "suggests": {
     "another-mod": "*"
