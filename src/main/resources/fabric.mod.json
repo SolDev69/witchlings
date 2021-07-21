@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "witchlings",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Witchlings",
+  "description": "Attempts to port TOH features and classes to Origins API",
   "authors": [
-    "Me!"
+    "Me!",
+    "TOH team for the original idea and characters"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "none",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "zeta.witchlings.Witchlings"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "witchlings.mixins.json"
   ],
 
   "depends": {
