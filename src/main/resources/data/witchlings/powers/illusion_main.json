@@ -1,0 +1,10 @@
+{
+  "type": "origins:invisibility",
+  "name": "Illusionist",
+  "description": "Makes you invisible!",
+  "render_armor": false,
+  "condition": {
+    "type": "origins:on_fire",
+    "inverted": true
+  }
+}

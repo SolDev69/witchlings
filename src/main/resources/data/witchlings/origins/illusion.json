@@ -1,0 +1,8 @@
+{
+  "powers": [
+    "witchlings:illusion_main"
+  ],
+  "icon": "minecraft:slime_ball",
+  "order": 4,
+  "impact": 1
+}
