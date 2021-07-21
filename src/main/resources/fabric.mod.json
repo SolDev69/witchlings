@@ -15,7 +15,7 @@
   },
 
   "license": "none",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/witchlings/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -31,7 +31,8 @@
     "fabricloader": ">=0.11.3",
     "fabric": "*",
     "minecraft": "1.17.x",
-    "java": ">=16"
+    "java": ">=16",
+    "origins": ">=v1.0.3"
   },
   "suggests": {
     "another-mod": "*"
